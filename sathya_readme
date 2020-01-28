@@ -1,0 +1,6 @@
+cd ~
+mkdir ~/tmp
+mv ~/.tmux.conf ~/tmp/
+git clone https://github.com/gpakosz/.tmux.git
+ln -s ~/.tmux/.tmux.conf ./
+cp ~/.tmux.conf.local ./
